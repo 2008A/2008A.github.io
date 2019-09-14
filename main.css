@@ -19,7 +19,7 @@ a {
   cursor: pointer;
 }
 
-a img{
+a img {
   border: none;
 }
 
@@ -103,7 +103,7 @@ a img{
 .map {
   z-index: 2;
   margin-top: 7vh;
-  border: 15px solid #EFD9E5;
+  border: 15px solid #efd9e5;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -127,24 +127,22 @@ a img{
 }
 
 .footer {
-  background-color: #EFD9E5;
+  background-color: #efd9e5;
   color: #000000;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-image: url('images/Rectangle\ 4.png');
+  background-image: url("images/Rectangle\ 4.png");
   background-repeat: no-repeat;
-
 }
 
 .adress {
-  padding-left:165px;
+  padding-left: 165px;
   float: left;
   text-align: justify;
 }
 
-.adress p{
-  text-shadow: 1px 1px white,
-               2px 2px #777;
+.adress p {
+  text-shadow: 1px 1px white, 2px 2px #777;
   color: #333;
   transition: all 1s;
 }
@@ -153,7 +151,8 @@ a img{
   color: none;
 }
 
-.social-networks a:focus,a:active {
+.social-networks a:focus,
+a:active {
   outline: none !important;
   box-shadow: none !important;
 }
@@ -172,9 +171,8 @@ a img{
   }
 }
 
-
-@media screen and (max-width: 1230px){
-  .brands li{
+@media screen and (max-width: 1230px) {
+  .brands li {
     margin-bottom: 12px;
   }
 
@@ -183,15 +181,14 @@ a img{
   }
 }
 
-
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
   .adress {
     text-align: left;
   }
 }
 
-@media screen and (max-width: 1070px){
-  .shedule{
+@media screen and (max-width: 1070px) {
+  .shedule {
     margin-left: 0;
   }
 
@@ -200,14 +197,13 @@ a img{
     padding-left: 0px;
   }
 
-  .shedule_map{
-    background-position-x: 110% ;
+  .shedule_map {
+    background-position-x: 110%;
   }
-
 }
 
-@media screen and (max-width:880px){
-  .announcement{
+@media screen and (max-width: 880px) {
+  .announcement {
     margin-left: 100px;
   }
 
@@ -219,11 +215,11 @@ a img{
     background-image: none;
   }
 
-  .map-responsive{
-    width:150% ;
+  .map-responsive {
+    width: 150%;
   }
 
-  .brands li{
+  .brands li {
     margin-left: 100px;
   }
 
@@ -231,45 +227,42 @@ a img{
     margin-left: 100px;
   }
 
-  .adress{
+  .adress {
     padding-left: 0px;
   }
 }
 
-@media screen and (max-width:750px){
+@media screen and (max-width: 750px) {
   .logo {
     margin-left: 0px;
   }
 
-  .announcement{
+  .announcement {
     margin-left: 0px;
   }
 
-  .brands li{
+  .brands li {
     margin-left: 0px;
   }
-
-
 }
 
-@media screen and (min-width:575px){
-  .brands-2{
+@media screen and (min-width: 575px) {
+  .brands-2 {
     display: none;
   }
 
-  .woman{
+  .woman {
     display: none;
     max-width: 0%;
     flex: 0 0 0%;
   }
 
-  .social-networks_2{
+  .social-networks_2 {
     display: none;
   }
-
 }
 
-@media screen and (max-width:575px){
+@media screen and (max-width: 575px) {
   .logo {
     margin-left: 0px;
     font-size: 24px;
@@ -278,7 +271,7 @@ a img{
     padding-right: 10%;
   }
 
-  .announcement{
+  .announcement {
     margin-left: 10px;
     margin-top: 20px;
     margin-bottom: 60px;
@@ -286,15 +279,15 @@ a img{
     float: left;
   }
 
-  .offer{
-    background-image: url('images/телефон 2.png') ;
+  .offer {
+    background-image: url("images/телефон 2.png");
     background-repeat: no-repeat;
     background-position-x: 150px;
     background-position-x: right;
     padding-bottom: 20px;
-}
+  }
 
-  .brands li{
+  .brands li {
     margin-left: 0px;
     font-size: 18px;
   }
@@ -308,11 +301,11 @@ a img{
     z-index: 1;
   }
 
-  .shedule h1{
+  .shedule h1 {
     font-size: 24px;
   }
 
-  .shedule li{
+  .shedule li {
     font-size: 14px;
   }
 
@@ -320,24 +313,24 @@ a img{
     position: absolute;
     z-index: 2;
     bottom: -4%;
-    right: 14%;;
+    right: 14%;
   }
 
   span {
     display: block;
   }
 
-  .map-responsive{
+  .map-responsive {
     width: 100%;
     position: static;
     border: none;
   }
 
-  .footer{
+  .footer {
     color: #ffffff;
-}
+  }
 
-  .social-networks{
+  .social-networks {
     display: none;
   }
 
@@ -351,14 +344,44 @@ a img{
     padding-left: 0px;
   }
 
-  .brands{
+  .brands {
     display: none;
   }
 
-  .brands-2 li{
+  .brands-2 li {
     font-size: 15px;
     display: inline;
     margin-left: 15px;
+  }
+}
 
+@media screen and (max-width: 345px) {
+  .brands-2 li {
+    margin-left: 5px;
+  }
+
+  .offer {
+    background-image: url("images/телефон-4.png");
+    background-position-x: 130%;
+    background-position-y: 30%;
+  }
+
+  .offer .announcement {
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+
+  .instagram {
+    font-size: 20px;
+  }
+
+  .woman {
+    bottom: -3%;
+    right: 3%;
+  }
+
+  mao-responsive {
+    width: 40%;
+    height: 130%;
   }
 }
