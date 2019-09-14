@@ -1,0 +1,364 @@
+body {
+  font-family: "Hepta Slab", serif;
+  font-size: 36px;
+}
+
+.nav {
+  background-color: #403dd3;
+}
+
+ul {
+  margin-bottom: 0rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+a img{
+  border: none;
+}
+
+.instagram {
+  color: #eb1bbd;
+  font-size: 24px;
+  text-shadow: -0 -2px 0 #ffffff, 0 -2px 0 #ffffff, -0 2px 0 #ffffff,
+    0 2px 0 #ffffff, -2px -0 0 #ffffff, 2px -0 0 #ffffff, -2px 0 0 #ffffff,
+    2px 0 0 #ffffff, -1px -2px 0 #ffffff, 1px -2px 0 #ffffff, -1px 2px 0 #ffffff,
+    1px 2px 0 #ffffff, -2px -1px 0 #ffffff, 2px -1px 0 #ffffff,
+    -2px 1px 0 #ffffff, 2px 1px 0 #ffffff, -2px -2px 0 #ffffff,
+    2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff,
+    -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff,
+    2px 2px 0 #ffffff;
+  letter-spacing: 0vh;
+  text-align: center;
+  padding-top: 15px;
+  line-height: 24px;
+  float: right;
+  padding-bottom: 15px;
+}
+
+.offer {
+  background-image: url("images/pink.png");
+}
+
+.logo {
+  border: 6px solid #000000;
+  margin-top: 47px;
+  margin-left: 165px;
+  max-width: 200px;
+  padding: 37px 27px 37px 27px;
+}
+
+.announcement {
+  margin-left: 165px;
+  margin-top: 58px;
+}
+
+.brands li {
+  color: #685d5d;
+  margin-left: 128px;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.brands {
+  padding-top: 3vh;
+}
+
+.phone {
+  height: 100%;
+  width: 100%;
+}
+
+.offer {
+  padding-bottom: 5vh;
+}
+
+.shedule {
+  margin-left: 165px;
+  padding-top: 80px;
+  text-align: center;
+  background-color: #eb1bbd;
+  padding-bottom: 20px;
+}
+
+.shedule_map {
+  background-image: url("images/kisspng-2.png");
+  background-repeat: no-repeat;
+  background-position: 95% 100%;
+  background-color: #403dd3;
+  color: #ffffff;
+}
+
+.open_time {
+  font-size: 25px;
+  padding: 0 0 0 0px;
+}
+
+.map {
+  z-index: 2;
+  margin-top: 7vh;
+  border: 15px solid #EFD9E5;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 85%;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.footer {
+  background-color: #EFD9E5;
+  color: #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: url('images/Rectangle\ 4.png');
+  background-repeat: no-repeat;
+
+}
+
+.adress {
+  padding-left:165px;
+  float: left;
+  text-align: justify;
+}
+
+.adress p{
+  text-shadow: 1px 1px white,
+               2px 2px #777;
+  color: #333;
+  transition: all 1s;
+}
+
+.social-networks a {
+  color: none;
+}
+
+.social-networks a:focus,a:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+@media screen and (max-width: 1280px) {
+  .shedule {
+    margin-left: 100px;
+  }
+
+  .adress {
+    padding-left: 100px;
+  }
+
+  .shedule_map {
+    background-position-x: 100%;
+  }
+}
+
+
+@media screen and (max-width: 1230px){
+  .brands li{
+    margin-bottom: 12px;
+  }
+
+  .brands {
+    padding-top: 0vh;
+  }
+}
+
+
+@media screen and (max-width: 1200px){
+  .adress {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 1070px){
+  .shedule{
+    margin-left: 0;
+  }
+
+  .adress {
+    font-size: 30px;
+    padding-left: 0px;
+  }
+
+  .shedule_map{
+    background-position-x: 110% ;
+  }
+
+}
+
+@media screen and (max-width:880px){
+  .announcement{
+    margin-left: 100px;
+  }
+
+  ul {
+    padding-inline-start: 0px;
+  }
+
+  .shedule_map {
+    background-image: none;
+  }
+
+  .map-responsive{
+    width:150% ;
+  }
+
+  .brands li{
+    margin-left: 100px;
+  }
+
+  .logo {
+    margin-left: 100px;
+  }
+
+  .adress{
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width:750px){
+  .logo {
+    margin-left: 0px;
+  }
+
+  .announcement{
+    margin-left: 0px;
+  }
+
+  .brands li{
+    margin-left: 0px;
+  }
+
+
+}
+
+@media screen and (min-width:575px){
+  .brands-2{
+    display: none;
+  }
+
+  .woman{
+    display: none;
+    max-width: 0%;
+    flex: 0 0 0%;
+  }
+
+  .social-networks_2{
+    display: none;
+  }
+
+}
+
+@media screen and (max-width:575px){
+  .logo {
+    margin-left: 0px;
+    font-size: 24px;
+    border: 6px solid #000000;
+    margin-top: 30px;
+    padding-right: 10%;
+  }
+
+  .announcement{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    float: left;
+  }
+
+  .offer{
+    background-image: url('images/телефон 2.png') ;
+    background-repeat: no-repeat;
+    background-position-x: 150px;
+    background-position-x: right;
+    padding-bottom: 20px;
+}
+
+  .brands li{
+    margin-left: 0px;
+    font-size: 18px;
+  }
+
+  .phone {
+    display: none;
+  }
+
+  .shedule {
+    padding-top: 27px;
+    z-index: 1;
+  }
+
+  .shedule h1{
+    font-size: 24px;
+  }
+
+  .shedule li{
+    font-size: 14px;
+  }
+
+  .woman {
+    position: absolute;
+    z-index: 2;
+    bottom: -4%;
+    right: 14%;;
+  }
+
+  span {
+    display: block;
+  }
+
+  .map-responsive{
+    width: 100%;
+    position: static;
+    border: none;
+  }
+
+  .footer{
+    color: #ffffff;
+}
+
+  .social-networks{
+    display: none;
+  }
+
+  .adress {
+    font-size: 20px;
+  }
+
+  .none {
+    width: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .brands{
+    display: none;
+  }
+
+  .brands-2 li{
+    font-size: 15px;
+    display: inline;
+    margin-left: 15px;
+
+  }
+}
