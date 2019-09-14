@@ -384,4 +384,8 @@ a:active {
     width: 40%;
     height: 130%;
   }
+
+  .logo {
+    padding: 37px 13px 37px 13px;
+  }
 }
